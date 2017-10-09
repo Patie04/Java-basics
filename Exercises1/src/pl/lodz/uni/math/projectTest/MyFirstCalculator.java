@@ -9,7 +9,8 @@ public class MyFirstCalculator {
 		calculator.setFirstDigit(10);
 		calculator.setSecondDigit(8);
 		//calculator.add();
-		calculator.share();
+		//calculator.share();
+		calculator.multiply();
 		calculator.getResult();
 		System.out.println(calculator.getResult());
 	}
