@@ -14,6 +14,10 @@ public class Calculator {
 	{
 		this.result=this.firstDigit+this.secondDigit;
 	}
+	public void share()
+	{
+		this.result=this.firstDigit/this.secondDigit;
+	}
 	public int getResult()
 	{
 		return this.result;
